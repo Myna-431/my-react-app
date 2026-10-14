@@ -1,0 +1,17 @@
+.overview{
+    padding: 100px;
+    background-color: #8686Ac;
+    min-height: 80vh;
+    font-style:italic;
+    font-size:xx-large ;
+    color: brown;
+    display: flex;
+    gap: 30%;
+    width: 90%;
+    margin-top: 20px;
+    
+}
+.view{
+    font-size:150px;
+    margin-top: 250px;
+}

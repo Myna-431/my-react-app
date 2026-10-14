@@ -1,0 +1,42 @@
+.container1{
+    border: 5px solid black;
+    width: 900px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    padding-left: 20px; 
+    border-radius: 20px;
+    min-height:50vh;
+    background-color:#8686Ac ;
+    font-style: oblique;
+}
+.container2{
+    border: 5px solid black;
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    padding-left: 20px; 
+    border-radius: 20px;
+    background-color:#8686Ac ;
+    font-style: oblique;
+}
+.container3{
+    border: 5px solid black;
+    width: 700px;
+    margin-top: 150px;
+    margin-left: 100px;
+    margin-bottom: 250px;
+    margin-right: 100px;
+    padding-left: 20px; 
+    border-radius: 20px;
+    background-color:#8686Ac ;
+    font-style: oblique;
+}
+.overall{
+    display: flex;
+    background-color:rgb(116, 107, 145) ;
+    margin-top: 50px;
+}

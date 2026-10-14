@@ -1,0 +1,70 @@
+.contactcontainer{
+    border: 5px solid black;
+    width: 400px;
+    border-radius: 18px;
+    padding: 30px;
+    margin-top: 100px;
+    margin-bottom: 350px;
+    background-color:#8686Ac;
+}
+.Boxmodel{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(116, 107, 145) ;
+    min-height: 100vh ;
+}
+input{
+    width:350px ;
+    height: 45px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+.Call{
+    margin-top: 0;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    display: flex;
+    gap:100px;
+    font-size: xx-large;
+    
+}
+.callus{
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:#8686Ac ;
+    text-align: center;
+    font-style: oblique;
+}
+.linkedin{
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:#8686Ac ;
+    text-align: center;
+    font-style: oblique;
+}
+.github{
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:#8686Ac ;
+    text-align: center;
+    font-style: oblique;
+
+}
+.instagram{
+    border: 5px solid black;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    background-color:#8686Ac ;
+    text-align: center;
+    font-style: oblique;
+
+}

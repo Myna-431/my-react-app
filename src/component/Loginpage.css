@@ -1,0 +1,20 @@
+.design{
+    
+    border: 2px solid black ;
+    width:500px;
+    margin-left:auto;
+    background-color: gray;
+    border-radius: 10px;
+    color:black;
+    text-align:left;
+}
+.view{
+    text-align:center ;
+}
+body{
+    background-image:url(src/assets/image.png);
+    background-size: cover;
+    background-position: center;
+    min-height: 50vh;
+
+}

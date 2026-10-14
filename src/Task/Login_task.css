@@ -1,0 +1,26 @@
+.display{
+    border:5px solid black;
+    width: 500px;
+    color: black;
+    background-color:#8686Ac;
+    
+    margin-top: 60px;
+    margin-bottom: 60px;
+    min-height: 65vh;
+    border-radius: 10px;
+    padding: 100px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+   text-align: center;
+    width:100%;
+    background-color: rgb(116, 107, 145) ;
+    
+}
+input{
+    width: 350px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+}

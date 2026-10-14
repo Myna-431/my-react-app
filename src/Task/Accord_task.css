@@ -1,0 +1,13 @@
+.headingstyle{
+    margin: 100px;
+    background-color:#8686Ac ;
+    border: 5px solid black;
+    width: 90%;
+    padding: 20px;
+    border-radius: 20px;
+    font-style: oblique;
+    cursor: pointer;
+}
+.class{
+    background-color: rgb(116, 107, 145);
+}

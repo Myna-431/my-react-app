@@ -1,0 +1,14 @@
+input{
+    width: 100px;
+}
+form{
+width:500px;
+margin:10px;
+background-color: aqua;
+border-radius:10px;
+text-align: center;
+}
+button{
+    background-color: brown;
+    border-radius: 5px;
+}
