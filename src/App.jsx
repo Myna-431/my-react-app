@@ -1,4 +1,17 @@
-import Home_task from'./Task/Home_task.jsx'
+import StudentCard from "./New/StudentCard.jsx"
+
+function App() {
+  return (
+    <div>
+      <StudentCard/>
+    </div>
+  );
+}
+
+export default App;
+
+
+/*import Home_task from'./Task/Home_task.jsx'
 import  Login_task from'./Task/Login_task.jsx'
 import Project_task from './Task/Project_task.jsx'
 import Accord_task from './Task/Accord_task.jsx'
@@ -7,11 +20,12 @@ import About_task from './Task/About_task.jsx'
 import Contact_task from './Task/Contact_task.jsx'
 import Navbar from './Task/Navbar.jsx'
 import {Routes,Route} from'react-router-dom'
-function App(){
-    return(
-        
-        <div>
-            <Navbar/>
+import Parent from "./component/Parent.jsx";
+import EmployeePage from "./component/EmployeePage";
+import { Badge } from "@mui/icons-material";*/
+
+
+/*<Navbar/>
         <Routes>
             
             <Route path="/"element={<Home_task/>}/>
@@ -21,11 +35,18 @@ function App(){
             <Route path="/Skills_task" element={<Skills_task/>}/>
             <Route path="/About_task" element={<About_task/>}/>
             <Route path="/Contact_task" element={<Contact_task/>}/>
-        </Routes>
+        </Routes>*/
             
+//export default App;
+/*import Parent from "./Parent";
 
-        </div>
-        
-    )
+function App() {
+  const student = {
+    name: "Arun",
+    department: "MERN Stack"
+  };
+
+  return <Parent student={student} />;
 }
-export default App;
+
+export default App;*/

@@ -9,7 +9,7 @@ const Getdata=()=> {
   return (
     <div>
       <table>
-        <thead  >
+        <thead>
             <tr>
                 <th>Name</th>
                 <th>Email</th>
