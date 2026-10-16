@@ -1,7 +1,6 @@
 import axios from "axios"
 import { Paper,TextField } from "@mui/material";
 import {useState,useEffect} from "react";
-import { pink } from "@mui/material/colors";
 function StudentCard(props) {
     const[data,setdata]=useState([])
         useEffect(()=>{
@@ -11,7 +10,7 @@ function StudentCard(props) {
             .catch((error) => console.error('Error:', error));
         },[])
   return (
-    <div style={{backgroundColor:"pink"}}>
+    <div style={{backgroundColor:"coral"}}>
         {data.map((i)=>{
             return(
                 <>
@@ -30,7 +29,7 @@ function StudentCard(props) {
       <TextField variant="filled"  label="username" helpertext ="username is required" required/><br/>
       <h1> email:{props.email}</h1><br/>
       <TextField variant="filled"  label="email" helpertext ="email is required" required/><br/>
-      <button  style={{fontSize:"20px",border:"2px solid" }}>Button</button>
+      <button  style={{fontSize:"20px",border:"2px solid",backgroundColor:"coral" }}>Button</button>
       </div>
       </Paper>
       </div>
